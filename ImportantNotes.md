@@ -11,6 +11,10 @@
 - Alert Controller can be created programatically like this.
 - Alert control will take an object as input.
 
+  ![My Local Image](./ionic-components-basics/images/alert-component.png)
+
+  ![My Local Image](./ionic-components-basics/images/alert-popup.png)
+
   ```typescript
   deletRecepe(){
     this.alertCntrl.create({header: 'Delete', message: 'Are you sure you want to delete this recipe?',
