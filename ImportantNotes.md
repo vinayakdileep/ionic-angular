@@ -28,3 +28,11 @@
     
   }
   ```
+
+### Chrome Dev Tool
+- Use the url **chrome://inspect/#devices** to debug native app using chrome with the help of emulator.
+
+### Routing logic
+- In ionic angular when we navigate from one page to another. Angular will be pushing the last page in to cache memory.
+- While we navigates back angualar will do pop and remove the current page from memory and navigates to previous page.
+- Thus by using cache memory angular speeds up loading of pages.
