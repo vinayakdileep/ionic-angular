@@ -39,3 +39,4 @@
 - The lifecycle methods are also different in ionic angular apps.
 - While loading a new page angular method **ngOnit()** will be called. **ionViewWillEnter()**, **ionViewDidEnter()** methods are called from ionic. **ngOnDestroy** from angular is not callled in this scenario.
 - **ngOnDestroy** is called when we pop from the stack. ie, coming back from the latest page, it will destroy latest page. Here previous page will be already present in the stack hence **ngOnInit** is not called here for that page.
+- **ionViewWillEnter()** and **ionViewWillEnter()** are called always by ionic when leaves from a page.
