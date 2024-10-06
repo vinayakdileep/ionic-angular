@@ -28,3 +28,6 @@
     
   }
   ```
+
+### Chrome Dev Tool
+- Use the url **chrome://inspect/#devices** to debug native app using chrome with the help of emulator.
