@@ -40,3 +40,16 @@
 - While loading a new page angular method **ngOnit()** will be called. **ionViewWillEnter()**, **ionViewDidEnter()** methods are called from ionic. **ngOnDestroy** from angular is not callled in this scenario.
 - **ngOnDestroy** is called when we pop from the stack. ie, coming back from the latest page, it will destroy latest page. Here previous page will be already present in the stack hence **ngOnInit** is not called here for that page.
 - **ionViewWillLeave()** and **ionViewDidLeave()** are called always by ionic when leaves from a page.
+
+### Hamberger Menu
+
+- It can be add by using ionic element **ion-menu**.
+- The menu element should be a sibling to the root content element. Normally sibling to **ion-router-outlet**.
+- There can be any number of menus attached to the content. These can be controlled from the templates, or programmatically using the MenuController.
+- We should specify **contentId** in ion-menu to render it as menu. This value should be equivalent to **id** of the sibling main content.
+    ![My Local Image](./ionic-components-basics/images/alert-component.png)
+
+- Wherever we want to render the **menu** set the menu attribute value like this.
+  ![My Local Image](./ionic-components-basics/images/alert-component.png)
+
+  ![My Local Image](./ionic-components-basics/images/alert-component.png)
