@@ -47,9 +47,9 @@
 - The menu element should be a sibling to the root content element. Normally sibling to **ion-router-outlet**.
 - There can be any number of menus attached to the content. These can be controlled from the templates, or programmatically using the MenuController.
 - We should specify **contentId** in ion-menu to render it as menu. This value should be equivalent to **id** of the sibling main content.
-    ![My Local Image](./ionic-components-basics/images/alert-component.png)
+    ![My Local Image](./ionic-components-basics/images/ion-menu.png)
 
 - Wherever we want to render the **menu** set the menu attribute value like this.
-  ![My Local Image](./ionic-components-basics/images/alert-component.png)
+  ![My Local Image](./ionic-components-basics/images/ion-menu-render.png)
 
-  ![My Local Image](./ionic-components-basics/images/alert-component.png)
+  ![My Local Image](./ionic-components-basics/images/hamberger.png)
