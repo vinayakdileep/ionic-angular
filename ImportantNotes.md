@@ -71,7 +71,7 @@
 
   Modal can be loaded programatically as shown below by injecting ModalController.
 
-   ![My Local Image](./ionic-components-basics/images/modal-close1.png)
+   ![My Local Image](./ionic-components-basics/images/model-close1.png)
 
 #### Closing Modal
 
@@ -83,7 +83,7 @@
 - If we want to pass data to modal while creating it then we can pass componentProps to create
 - If we want to specify id to modal then pass it as 3rd parameter to create method
 
-  ![My Local Image](./ionic-components-basics/images/modal-close1.png)
+  ![My Local Image](./ionic-components-basics/images/model-close1.png)
 
   ![My Local Image](./ionic-components-basics/images/model-close2.png)
 
