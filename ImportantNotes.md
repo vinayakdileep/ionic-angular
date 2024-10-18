@@ -54,6 +54,32 @@
 
   ![My Local Image](./ionic-components-basics/images/hamberger.png)
 
+### AuthGuard New
+
+- New way of adding auth guard is not using Service.
+- We can use the command  **ionic generate guard** for that.
+- We can declare function CanMatchFn like this.
+- For adding required service we can use the below format.
+
+``` typescript
+export const authGuard: CanMatchFn = (route, segments) => {
+  const authService = inject(AuthService);
+  const router = inject(Router);
+  const isAuthenticated = authService.userAuthenticated;
+  if (!isAuthenticated){
+    router.navigateByUrl('/auth');
+    return false;
+  }
+  return true;
+};
+
+```
+
+- We can restrict the access to routes by using auth guard like this in the routing module.
+
+  ![My Local Image](./ionic-components-basics/images/auth-guard.png)
+
+
 
 ### Modal
 
