@@ -65,22 +65,27 @@
 - We have to add component to **declarations** array of required module.
 - If modal has been used in multiple module then kee it in shared modeule declarations array.
 
-   ![My Local Image](./ionic-components-basics/images/hamberger.png)
+   ![My Local Image](./ionic-components-basics/images/modal-open1.png)
 
-   ![My Local Image](./ionic-components-basics/images/hamberger.png)
+   ![My Local Image](./ionic-components-basics/images/model-open2.png)
 
   Modal can be loaded programatically as shown below by injecting ModalController.
 
-  ![My Local Image](./ionic-components-basics/images/hamberger.png)
+   ![My Local Image](./ionic-components-basics/images/modal-close1.png)
 
 #### Closing Modal
 
-	• For closing the modal we can use a close button icon and while booking it will return the data and close the modal.
-	• For this we can use ModalController. This will provide dismiss method.
-	• The dismiss method will close top most modal. If we want to close specific modal then we have to use id.
-	• This dismiss method will take 3 parameter. First is the data we need want to return, 2nd is role for which we can give any value and 3rd is id where we can use it to close specific modal if multiple modals are present.
-	• While doing close we no need to pass any of these parameters.
-	• If we want to pass data to modal while creating it then we can pass componentProps to create
-	• If we want to specify id to modal then pass it as 3rd parameter to create method
-![image](https://github.com/user-attachments/assets/eb042d2c-d06a-43a8-b395-91550d98df4e)
+- For closing the modal we can use a close button icon and while booking it will return the data and close the modal.
+- For this we can use ModalController. This will provide dismiss method.
+- The dismiss method will close top most modal. If we want to close specific modal then we have to use id.
+- This dismiss method will take 3 parameter. First is the data we need want to return, 2nd is role for which we can give any value and 3rd is id where we can use it to close specific modal if multiple modals are present.
+- While doing close we no need to pass any of these parameters.
+- If we want to pass data to modal while creating it then we can pass componentProps to create
+- If we want to specify id to modal then pass it as 3rd parameter to create method
+
+  ![My Local Image](./ionic-components-basics/images/modal-close1.png)
+
+  ![My Local Image](./ionic-components-basics/images/model-close2.png)
+
+  ![My Local Image](./ionic-components-basics/images/model-close3.png)
 
