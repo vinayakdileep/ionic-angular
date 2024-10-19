@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>{{place?.title}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="'/places/tabs/offers/' + place?.id"></ion-back-button>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>${{place?.price}}/Night</ion-card-header>
+          <ion-card-content>
+            <ion-img [src]="place?.imageUrl"></ion-img>
+            <p>{{place?.description}}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
